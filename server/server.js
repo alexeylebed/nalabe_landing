@@ -3,7 +3,7 @@ const app = express()
 const port = 80
 
 app.get('/', (req, res) => {
-    res.sendFile("../index.html")
+    res.sendFile("/home/ubuntu/nalabe_landing/index.html")
 })
 
 app.listen(port, () => {
